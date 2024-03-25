@@ -39,11 +39,11 @@
   </properties>
 
   <dependencies>
-    <dependency>
+    <!-- <dependency>
       <groupId>com.streamsets</groupId>
       <artifactId>streamsets-datacollector-dist</artifactId>
       <scope>compile</scope>
-    </dependency>
+    </dependency> -->
   </dependencies>
 
   <build>
@@ -71,7 +71,7 @@
                   <groupId>com.streamsets</groupId>
                   <artifactId>streamsets-datacollector-edge</artifactId>
                   <classifier>linux-arm</classifier>
-                  <version>${datacollector-edge.version}</version>
+                  <version>3.16.0</version>
                   <type>tgz</type>
                   <overWrite>true</overWrite>
                   <outputDirectory>${edge.release-dir}</outputDirectory>
@@ -80,7 +80,7 @@
                   <groupId>com.streamsets</groupId>
                   <artifactId>streamsets-datacollector-edge</artifactId>
                   <classifier>linux-amd64</classifier>
-                  <version>${datacollector-edge.version}</version>
+                  <version>3.16.0</version>
                   <type>tgz</type>
                   <overWrite>true</overWrite>
                   <outputDirectory>${edge.release-dir}</outputDirectory>
@@ -89,7 +89,7 @@
                   <groupId>com.streamsets</groupId>
                   <artifactId>streamsets-datacollector-edge</artifactId>
                   <classifier>darwin-amd64</classifier>
-                  <version>${datacollector-edge.version}</version>
+                  <version>3.16.0</version>
                   <type>tgz</type>
                   <overWrite>true</overWrite>
                   <outputDirectory>${edge.release-dir}</outputDirectory>
@@ -98,7 +98,7 @@
                   <groupId>com.streamsets</groupId>
                   <artifactId>streamsets-datacollector-edge</artifactId>
                   <classifier>windows-amd64</classifier>
-                  <version>${datacollector-edge.version}</version>
+                  <version>3.16.0</version>
                   <type>zip</type>
                   <overWrite>true</overWrite>
                   <outputDirectory>${edge.release-dir}</outputDirectory>
